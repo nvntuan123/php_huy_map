@@ -10,11 +10,13 @@ for ($i = 0; $i < $iLength; $i++) {
 $a = 1;
 while ($a <= 10) {
     echo 'a = ' . $a;
+    $a++;
 }
 
 $b = 15;
 do {
     echo 'b = ' . $b;
+    $b++;
 } while ($b <= 20);
 
 /*
