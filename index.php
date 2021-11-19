@@ -7,6 +7,16 @@ for ($i = 0; $i < $iLength; $i++) {
     echo 'i = ' . $i;
 }
 
+$a = 1;
+while ($a <= 10) {
+    echo 'a = ' . $a;
+}
+
+$b = 15;
+do {
+    echo 'b = ' . $b;
+} while ($b <= 20);
+
 /*
 Ngon ngu bien dich.
 C/C++:
